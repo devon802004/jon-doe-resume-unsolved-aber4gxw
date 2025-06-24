@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jon Doe's Resume</title>
 
-    <link rel="stylesheet" href="./css/styles.css.">
+    <!-- <link rel="stylesheet" href="./css/styles.css."> -->
 
     
 
@@ -13,22 +13,30 @@
 </head>
 
 <body class="fancy-body">
-    <script src=" ./js/scripts.js" defer></script>
 
-    <!-- Bellow, what are values to required and importance? -->
-
-
-    <img id="candidate-image" src="./assets/avatars/fake_person.jpg" alt="Jon Doe's Resume" aria-required="" importance="">
+    
+    
     
     <h1 id="candidate-name">John Doe</h1>
-    
     <h2 id="candidate-desired-role">Talented Fronted Developer</h2>
+    <img id="candidate-image" src="./assets/avatars/fake_person.jpg" alt="Jon Doe's Resume" aria-required="" importance="">
+
+    
     
     <h2 id="about-me">About Me</h2>
-    <p id="candidate-bio">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae, vel dolorem fuga cupiditate fugiat eos temporibus reiciendis, sapiente eveniet sequi, quisquam numquam aut pariatur ducimus laboriosam sint quaerat placeat delectus ad aliquid quasi modi? Eaque doloribus saepe beatae fugiat nobis inventore, minus reiciendis, exercitationem quia atque, similique architecto aut.</p>
+
+    <p class="candidate-bio">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae, vel dolorem fuga cupiditate fugiat eos temporibus reiciendis, sapiente eveniet sequi, quisquam numquam aut pariatur ducimus laboriosam sint quaerat placeat delectus ad aliquid quasi modi? Eaque doloribus saepe beatae fugiat nobis inventore, minus reiciendis, exercitationem quia atque, similique architecto aut.</p>
     
+
+    <!-- [ ] The skills list should have the id of "skills-list"
+[ ] The Hobbies section heading should have the id of "hobbies"
+[ ] The hobbies list should have the id of "hobbies-list" -->
+
     <h2 id="skills">My Skills</h2>
-    <ol class="skills-list">
+
+
+    <ol id="skills-list">
+        
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScrpit</li>
@@ -36,16 +44,25 @@
         <li>ReactJs</li>
         <li>NodeJS</li>
     </ol>
+
     <h2 class="hobbies">My Hobbies</h2>
+
     <ul class="hobbies-list">
         <li>Montain biking</li>
         <li>Video Games</li>
         <li>Drawing</li>
         <li>Reading</li>
     </ul>
+    <!-- [ ] The contacts section heading should have the id of "contacts"
+[ ] The contacts table should have a class name of "contacts-table".
+[ ] The body should have a class name of "fancy-body". -->
+
+
+
+
     <h2 id="contacts">Contact Me</h2>
     
-    <table id="contacts-table">
+    <table class="contacts-table">
         <tr>
             <th>Discord</th>
             <td>.Ademi-Manigault</td>
@@ -63,7 +80,7 @@
         <tr>
             <th>GitHub</th>
             
-            <!-- Needs href value!? -->
+            
 
             <td><a href="#" target="_blank">github user</a</tda>
             </tr>
